@@ -2,7 +2,7 @@
 Video Capture Library for Processing based on the [sarxos's Webcam Capture API](https://github.com/sarxos/webcam-capture)
 
 
-## Same as Capture
+## Same API as Capture
 This library was created as an alternative when the Capture class in the official video library does not work well.
 PCapture has the same methods as Capture.
 
