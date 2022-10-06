@@ -20,7 +20,6 @@ void setup() {
 
 void draw() {
   if ( !cam.available() ) return;
-  background(50);
   cam.read();
   image(cam, 0, 0);
 }
@@ -28,7 +27,7 @@ void draw() {
 // captureEvent() is also available.
 /*
 void captureEvent(PCapture cap) {
- cap.read();
+  cap.read();
 }
 */
 ```
